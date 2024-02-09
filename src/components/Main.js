@@ -44,9 +44,9 @@ const Main = () => {
                     </a>
                 </div>
                 
-                <a href='/#contact'>
+                <a href='/catalogo'>
                     <div className='btn btn-lg'>
-                        <p className='p-2'>Contactanos</p>
+                        <p className='p-2'>Catalogo</p>
                     </div>
                 </a>
 

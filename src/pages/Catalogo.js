@@ -1,10 +1,41 @@
 import React from 'react'
 // image
-import topImage from '../assets/rugbyHeader3.jpg';
-import rugbySuperior from '../assets/rugbySuperior.png'
-import rugbyJuvenil from '../assets/rugbyJuvenil.png'
-import rugbyInfantil from '../assets/rugbyInfantil.png'
-import rugbyInclusivo from '../assets/rugbyInclusivo.png'
+import topImage from '../assets/headerImg.jpg';
+import nivelDigital from '../assets/nivel.png'
+import llavesDeTubo from '../assets/llavesDeTubo.png'
+import amoladoraRecta from '../assets/amoladoraRecta.png'
+import atornilladoraSeleccion from '../assets/atornilladoraSeleccion.png'
+import llavesCurvas from '../assets/llavesCurvas.png'
+import llavesBremen from '../assets/llavesBremen.png'
+import amoladoraSeleccion from '../assets/amoladoraSeleccion.png'
+import picoDeLoroBahco from '../assets/picoDeLoroBahco.png'
+import rotopercutorArgentec from '../assets/rotopercutorArgentec.png'
+import amoladoraABateriaCajaHamilton from '../assets/amoladoraABateriaCajaHamilton.png'
+import discosTyrolit from '../assets/discosTyrolit.png'
+import martillosV from '../assets/martillosV.png'
+import llavesFrancesas from '../assets/llavesFrancesas.png'
+import atornilladorAngulo from '../assets/atornilladorAngulo.png'
+import lijadora from '../assets/lijadora.png'
+import taladroAcc from '../assets/taladroAcc.png'
+import soldadoraPegaso2 from '../assets/soldadoraPegaso2.png'
+import compresorLabor from '../assets/compresorLabor.png'
+import sierraCaladora from '../assets/sierraCaladora.png'
+import taladroBateriaArgentec5 from '../assets/taladroBateriaArgentec5.png'
+import amoladoraBancoDogo2 from '../assets/amoladoraBancoDogo2.png'
+import remachadoraDualBremen2 from '../assets/remachadoraDualBremen2.png'
+import discoCorte from '../assets/discoCorte.png'
+import discoDesbaste2 from '../assets/discoDesbaste2.png'
+import discosFlap from '../assets/discosFlap.png'
+import llaveImpactoBremen from '../assets/llaveImpactoBremen.png'
+import pistolaCalorArgentec from '../assets/pistolaCalorArgentec.png'
+import pistolaCalorStanley from '../assets/pistolaCalorStanley.png'
+import pistolaPinturaDogo from '../assets/pistolaPinturaDogo.png'
+import taladroArgentec2 from '../assets/taladroArgentec2.png'
+import mascaraSoldarFoxtter from '../assets/mascaraSoldarFoxtter.png'
+import amoladora from '../assets/amoladora.png'
+import cintaGiant from '../assets/10mGiant.png'
+
+
 // motion
 import { motion } from 'framer-motion';
 // variants
@@ -12,33 +43,202 @@ import { fadeIn } from '../variants';
 // rugby data
 const productos = [
   
-    
     {
-      name: 'Juveniles',
+      name: 'Llaves Curvas',
       description:
-       'Lunes: 20hs-22hs / Martes y Jueves: 20:30hs-22:30hs',
-      link: '/rugby',
-      cardimage: rugbyJuvenil,
+      'Bremen.',
+      cardimage: llavesCurvas,
+    },{
+      name: 'Llaves Rectas',
+      description:
+      'Bremen.',
+      cardimage: llavesBremen,
     },
     {
-      name: 'Infantiles',
+      name: 'Llaves de Tubo',
       description:
-       'Martes y Jueves: 20:30hs-22:30hs / Sabados 10hs-12hs',
-      link: '/hockey',
-      cardimage: rugbyInfantil,
+       'Rimo.',
+      cardimage: llavesDeTubo,
     },
     {
-      name: 'Plantel Superior',
+      name: 'Amoladora Recta',
       description:
-       'Lunes: 20hs-22hs / Martes y Jueves: 20:30hs-22:30hs',
-      link: '/transporte',
-      cardimage: rugbySuperior,
+       'Bosch',
+      cardimage: amoladoraRecta,
     },
     {
-        name:'Inclusivo',
+      name: 'Nivel Digital',
+      description:
+       'Bosch',
+      cardimage: nivelDigital,
+    },
+    {
+        name:'Atornilladora Campeón',
         description: 
-        'Sábados 10hs-12hs',
-        cardimage: rugbyInclusivo,
+        'Argentec ',
+        cardimage: atornilladoraSeleccion,
+    },
+    {
+        name:'Amoladora Campeón',
+        description: 
+        'Argentec ',
+        cardimage: amoladoraSeleccion,
+    },
+    {
+        name:'Pico de Loro',
+        description: 
+        'Bahco ',
+        cardimage: picoDeLoroBahco,
+    },
+    {
+        name:'Rotopercutor',
+        description: 
+        'Argentec ',
+        cardimage: rotopercutorArgentec,
+    },
+    {
+        name:'Amoladora Inalámbrica',
+        description: 
+        'Hamilton ',
+        cardimage: amoladoraABateriaCajaHamilton,
+    },
+    {
+        name:'Discos de Desbaste',
+        description: 
+        'Tyrolit ',
+        cardimage: discosTyrolit,
+    },
+    {
+        name:'Martillo Bolita',
+        description: 
+        'El Roble',
+        cardimage: martillosV,
+    },
+    {
+        name:'Llave Francesa',
+        description: 
+        'Bahco ',
+        cardimage: llavesFrancesas,
+    },
+    {
+        name:'Atornilladora Angular',
+        description: 
+        'Black & Decker',
+        cardimage: atornilladorAngulo,
+    },
+    {
+        name:'Lijadora Orbital',
+        description: 
+        'Black & Decker',
+        cardimage: lijadora,
+    },
+    {
+        name:'Taladro Percutor',
+        description: 
+        'Black & Decker',
+        cardimage: taladroAcc,
+    },
+    {
+        name:'Soldadora Inverter',
+        description: 
+        'Pegaso',
+        cardimage: soldadoraPegaso2,
+    },
+    {
+        name:'Compresor',
+        description: 
+        'Labor ',
+        cardimage: compresorLabor,
+    },
+    {
+        name:'Sierra Caladora',
+        description: 
+        'Black & Decker',
+        cardimage: sierraCaladora,
+    },
+    {
+        name:'Taladro Inalámbrico',
+        description: 
+        'Argentec ',
+        cardimage: taladroBateriaArgentec5,
+    },
+    {
+        name:'Amoladora de Banco',
+        description: 
+        'Dogo',
+        cardimage: amoladoraBancoDogo2,
+    },
+    {
+        name:'Remachadora Dual',
+        description: 
+        'Bremen ',
+        cardimage: remachadoraDualBremen2,
+    },
+    {
+        name:'Discos de Corte',
+        description: 
+        'Dogo',
+        cardimage: discoCorte,
+    },
+    {
+        name:'Discos de Desbaste',
+        description: 
+        'Dogo',
+        cardimage: discoDesbaste2,
+    },
+    {
+        name:'Discos Flap',
+        description: 
+        'Dogo ',
+        cardimage: discosFlap,
+    },
+    {
+        name:'Llave de Impacto',
+        description: 
+        'Bremen ',
+        cardimage: llaveImpactoBremen,
+    },
+    {
+        name:'Pistola de Calor',
+        description: 
+        'Argentec ',
+        cardimage: pistolaCalorArgentec,
+    },
+    {
+        name:'Pistola de Calor',
+        description: 
+        'Stanley',
+        cardimage: pistolaCalorStanley,
+    },
+    {
+        name:'Pistola para Pintura',
+        description: 
+        'Dogo',
+        cardimage: pistolaPinturaDogo,
+    },
+    {
+        name:'Taladro Percutor',
+        description: 
+        'Argentec',
+        cardimage: taladroArgentec2,
+    },
+    {
+        name:'Mascara para Soldar',
+        description: 
+        'Foxtter',
+        cardimage: mascaraSoldarFoxtter,
+    },
+    {
+        name:'Amoladora Angular',
+        description: 
+        'Black & Decker',
+        cardimage: amoladora,
+    },
+    {
+        name:'Cinta Métrica',
+        description: 
+        'Giant',
+        cardimage: cintaGiant,
     }
     
   ]
@@ -60,7 +260,7 @@ const Catalogo = () => {
                 <div className='absolute top-30 w-full h-[30vh] lg:h-[40vh] bg-black/60 z-10'/>
                 <img className='h-full w-full object-cover z-1' src={topImage} alt='Green Card & Visa'/>
                 <div className='absolute top-[14%] lg:top-[24%] max-w-[1240px] w-full text-white z-20 p-2 text-left'>
-                    <h2 className='py-2 font-bold text-gradient text-[2.6rem] uppercase w-min'>Rugby</h2>
+                    <h2 className='py-2 font-bold text-gradient text-[2.6rem] uppercase w-min'>Catalogo</h2>
                     
                 </div>
             </motion.div>
@@ -69,7 +269,7 @@ const Catalogo = () => {
             <div className='grid md:grid-cols-2 lg:grid-cols-3'>
                 {productos.map((service, index) => {
                 // destructure service
-                const { name, description, link, cardimage } = service;
+                const { name, description, cardimage } = service;
                 return (
                 <motion.div
                     variants={fadeIn('up', 0.2)}
@@ -105,7 +305,7 @@ const Catalogo = () => {
                             {/* button */}
                             <div className='absolute bottom-full left-12 
                             group-hover:bottom-2 transition-all duration-700 z-50'>
-                                <a href={link} target='_blank' rel="noreferrer">
+                                <a href='https://www.wa.link/quekoy' target='_blank' rel="noreferrer">
                                     <button className='btn btn-sm'>Contactanos</button>
                                 </a>
                             </div>
